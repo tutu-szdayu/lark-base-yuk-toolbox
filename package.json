@@ -1,0 +1,30 @@
+{
+  "name": "lbp-sidebar",
+  "private": true,
+  "version": "0.1.0",
+  "description": "多维表格侧边栏「YUK 工具箱」：管理打印模板（上传、试打、版本、按记录选模板）",
+  "type": "module",
+  "output": "dist",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "typecheck": "tsc -b"
+  },
+  "dependencies": {
+    "@douyinfe/semi-icons": "^2.104.0",
+    "@douyinfe/semi-ui": "^2.104.0",
+    "@lark-base-open/js-sdk": "1.0.2",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.31",
+    "@types/react-dom": "^18.3.7",
+    "@vitejs/plugin-react": "^4.7.0",
+    "typescript": "~5.5.4",
+    "vite": "^6.4.4"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
